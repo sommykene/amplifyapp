@@ -9,6 +9,19 @@
       "expirationTime": 7,
       "apiKeyExpirationDate": "2021-12-28T14:03:28.598Z",
       "keyDescription": ""
+    },
+    "conflictResolution": {
+      "defaultResolutionStrategy": {
+        "type": "AUTOMERGE"
+      },
+      "perModelResolutionStrategy": [
+        {
+          "resolutionStrategy": {
+            "type": "AUTOMERGE"
+          },
+          "entityName": "Note"
+        }
+      ]
     }
   }
 }
